@@ -33,6 +33,9 @@ git clone https://github.com/foundObjects/zram-swap.git
 cd zram-swap && sudo ./install.sh
 ```
 
+git clone https://github.com/mulqizamzam/zram-swap.git
+cd zram-swap && sudo ./install.sh
+
 The install script starts the zram-swap.service automatically after installation
 and enables the systemd service during boot. The default allocation creates an lz4
 zram device that should use around half of physical memory when completely full.
