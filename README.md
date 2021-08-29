@@ -3,6 +3,8 @@ A simple zram swap script for modern systemd Linux
 
 https://github.com/foundObjects/zram-swap
 
+https://github.com/mulqizamzam/zram-swap
+
 ### Why?
 
 I wrote zram-swap because I couldn't find a simple modern replacement for the Ubuntu
@@ -20,6 +22,12 @@ or directly from GitHub:
 ```sh
 mkdir zram-swap-git && cd zram-swap-git
 wget https://raw.githubusercontent.com/foundObjects/zram-swap/arch-packaging/PKGBUILD
+makepkg -Cci
+```
+
+```sh
+mkdir zram-swap-git && cd zram-swap-git
+wget https://raw.githubusercontent.com/mulqizamzam/zram-swap/arch-packaging/PKGBUILD
 makepkg -Cci
 ```
 
